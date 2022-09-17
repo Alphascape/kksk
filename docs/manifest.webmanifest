@@ -1,0 +1,22 @@
+{
+  "short_name": "KKSK",
+  "name": "KKSK",
+  "description": "KKSK",
+  "icons": [
+    {
+      "src": "/web/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#2d2c2c",
+  "theme_color": "#2d2c2c",
+  "display": "standalone"
+}
