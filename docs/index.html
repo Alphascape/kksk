@@ -3,37 +3,230 @@
 <head>
 <meta charset="UTF-8">
 <meta name="author" content="Alphascape">
-<meta name="description" content="KKSK">
+<meta content="kksk.app 是一个渐进式网络应用程序(PWA)，你可以在这找到一些乐子(大概)" name="description">
 <meta name="keywords" content="kksk, app, pwa">
-<meta name="theme-color" content="#2d2c2c">
+<meta name="theme-color" content="#2e343a">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
-<meta property="og:url" content="http://127.0.0.1:62025/">
-<meta content="KKSK" property="og:title">
-<meta property="og:description" content="KKSK">
+<meta property="og:url" content="http://127.0.0.1:63011/">
+<meta property="og:title" content="KKSK">
+<meta property="og:description" content="kksk.app 是一个渐进式网络应用程序(PWA)，你可以在这找到一些乐子(大概)">
 <meta property="og:type" content="website">
-<meta property="og:image" content>
+<meta content property="og:image">
 <title>
 KKSK
 </title>
 <link rel="icon" type="image/png" href="/web/logo.png">
 <link rel="apple-touch-icon" href="/web/logo.png">
-<link rel="manifest" href="/manifest.webmanifest">
+<link href="/manifest.webmanifest" rel="manifest">
 <link type="text/css" rel="stylesheet" href="/app.css">
 <script defer="true" src="/wasm_exec.js"></script>
 <script defer="true" src="/app.js"></script>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap">
+<link type="text/css" rel="stylesheet" href="/web/css/docs.css">
 </head>
 <body>
 <div>
 <aside id="app-wasm-loader" class="goapp-app-info">
 <img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="/web/logo.png">
-<p class="goapp-label" id="app-wasm-loader-label">
-少女祈祷中
+<p id="app-wasm-loader-label" class="goapp-label">
+仙德祈祷中...
 </p>
 </aside>
 <div id="app-pre-render">
+<div id class="fill background" data-goapp-ui="shell">
+<div id="goapp-shell-abe311bc-07cb-4416-b50d-e9aae8d001d7" style="display:flex;width:100%;height:100%;overflow:hidden;">
+<div style="position:relative;display:none;flex-shrink:0;flex-basis:270px;overflow:hidden;">
+<div data-goapp-ui="scroll" id class="menu fill">
+<div style="width:100%;height:calc(100% - 24px);padding:12px 0;">
+<div style="width:calc(100% - 24px);padding:0 12px;height:72px;">
+<div data-goapp="Stack" id class="fill" style="display:flex;justify-content:flex-start;align-items:center;">
+<header>
+<a class="heading app-title" href="/">
+KKSK
+</a>
+</header>
+</div>
+</div>
+<div style="width:calc(100% - 24px);height:calc(100% - 72px);padding:0 12px;overflow-x:hidden;overflow-y:scroll;">
+<nav>
+<div class="separator"></div>
+<a title href="/" id class="link heading fit unselectable">
+<div data-goapp="Stack" id class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;">
+<div data-goapp="Icon" id class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    	<path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+	</svg>
+</div>
+<div>
+Home
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<a href="/dinner" id class="link heading fit unselectable" title>
+<div data-goapp="Stack" id class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;">
+<div class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;" data-goapp="Icon" id>
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    	<path fill="currentColor" d="M7,15L11.5,9L15,13.5L17.5,10.5L21,15M22,4H14L12,2H6A2,2 0 0,0 4,4V16A2,2 0 0,0 6,18H22A2,2 0 0,0 24,16V6A2,2 0 0,0 22,4M2,6H0V11H0V20A2,2 0 0,0 2,22H20V20H2V6Z" />
+	</svg>
+</div>
+<div>
+Dinner
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<a id class="link heading fit unselectable" title href="https://twitter.com/nangcr">
+<div data-goapp="Stack" id class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;">
+<div style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;" data-goapp="Icon" id class>
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+		<path fill="#1DA1F2" d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
+	</svg>
+</div>
+<div>
+Twitter
+</div>
+</div>
+</a>
+<a class="link heading fit unselectable" title href="https://github.com/Alphascape/kksk" id>
+<div data-goapp="Stack" id class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;">
+<div class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;" data-goapp="Icon" id>
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+		<path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+	</svg>
+</div>
+<div>
+GitHub
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<div class="separator"></div>
+</nav>
+</div>
+<div style="width:calc(100% - 24px);padding:0 12px;height:0px;"></div>
+</div>
+</div>
+</div>
+<div style="position:relative;display:none;flex-shrink:0;flex-basis:270px;overflow:hidden;"></div>
+<div style="position:relative;flex-grow:1;overflow:hidden;">
+<div data-goapp-ui="scroll" id class="fill">
+<div style="width:100%;height:calc(100% - 24px);padding:12px 0;">
+<div style="width:calc(100% - 24px);padding:0 12px;height:72px;">
+<nav class="fill">
+<div data-goapp="Stack" id class="fill" style="display:flex;justify-content:flex-end;align-items:center;"></div>
+</nav>
+</div>
+<div style="width:calc(100% - 24px);height:calc(100% - 72px);padding:0 12px;overflow-x:hidden;overflow-y:scroll;">
+<main>
+<article>
+<header id="page-top" class="page-title center">
+<div data-goapp="Stack" id class style="display:flex;justify-content:center;align-items:center;">
+<div class="icon-left unselectable" style="width:90px;height:90px;max-width:90px;max-height:90px;min-width:90px;min-height:90px;" data-goapp="Icon" id>
+<img style="max-width:100%;max-height:100%;" src="/web/logo.png">
+</div>
 <h1>
-Hello, world!
+KKSK
 </h1>
+</div>
+</header>
+<div class="separator"></div>
+<div>
+<p>
+我知道你很急，但是，先别急
+</p>
+<p>
+急也没用
+</p>
+</div>
+</article>
+</main>
+</div>
+<div style="width:calc(100% - 24px);padding:0 12px;height:0px;"></div>
+</div>
+</div>
+</div>
+<div style="position:relative;display:none;flex-shrink:0;flex-basis:336px;overflow:hidden;"></div>
+</div>
+<div style="display:block;position:absolute;top:0;left:0;cursor:pointer;">
+<div class="goapp-shell-hamburger-button-default">
+☰
+</div>
+</div>
+<div style="display:none;position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;">
+<div data-goapp-ui="scroll" id class="menu fill menu-hamburger-background">
+<div style="width:100%;height:calc(100% - 24px);padding:12px 0;">
+<div style="width:calc(100% - 24px);padding:0 12px;height:72px;">
+<div class="fill" style="display:flex;justify-content:flex-start;align-items:center;" data-goapp="Stack" id>
+<header>
+<a class="heading app-title" href="/">
+KKSK
+</a>
+</header>
+</div>
+</div>
+<div style="width:calc(100% - 24px);height:calc(100% - 72px);padding:0 12px;overflow-x:hidden;overflow-y:scroll;">
+<nav>
+<div class="separator"></div>
+<a id class="link heading fit unselectable" title href="/">
+<div class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;" data-goapp="Stack" id>
+<div data-goapp="Icon" id class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    	<path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+	</svg>
+</div>
+<div>
+Home
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<a id class="link heading fit unselectable" title href="/dinner">
+<div style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;" data-goapp="Stack" id class>
+<div data-goapp="Icon" id class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    	<path fill="currentColor" d="M7,15L11.5,9L15,13.5L17.5,10.5L21,15M22,4H14L12,2H6A2,2 0 0,0 4,4V16A2,2 0 0,0 6,18H22A2,2 0 0,0 24,16V6A2,2 0 0,0 22,4M2,6H0V11H0V20A2,2 0 0,0 2,22H20V20H2V6Z" />
+	</svg>
+</div>
+<div>
+Dinner
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<a id class="link heading fit unselectable" title href="https://twitter.com/nangcr">
+<div class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;" data-goapp="Stack" id>
+<div id class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;" data-goapp="Icon">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+		<path fill="#1DA1F2" d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
+	</svg>
+</div>
+<div>
+Twitter
+</div>
+</div>
+</a>
+<a href="https://github.com/Alphascape/kksk" id class="link heading fit unselectable" title>
+<div id class style="display:flex;justify-content:flex-start;align-items:center;padding:3px 0;" data-goapp="Stack">
+<div data-goapp="Icon" id class style="width:24px;height:24px;max-width:24px;max-height:24px;min-width:24px;min-height:24px;margin-right:6px;">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+		<path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+	</svg>
+</div>
+<div>
+GitHub
+</div>
+</div>
+</a>
+<div class="separator"></div>
+<div class="separator"></div>
+</nav>
+</div>
+<div style="width:calc(100% - 24px);padding:0 12px;height:0px;"></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </body>

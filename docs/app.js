@@ -5,8 +5,8 @@ var goappNav = function () {};
 var goappOnUpdate = function () {};
 var goappOnAppInstallChange = function () {};
 
-const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"","GOAPP_STATIC_RESOURCES_URL":"","GOAPP_VERSION":"646c70ffeec6a3ffb87cf167b3dd961d6895e64b"};
-const goappLoadingLabel = "少女祈祷中";
+const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"","GOAPP_STATIC_RESOURCES_URL":"","GOAPP_VERSION":"0fa62d4a35f9e2f1f50c57daea671b148e92051a"};
+const goappLoadingLabel = "仙德祈祷中...";
 const goappWasmContentLengthHeader = "";
 
 let goappServiceWorkerRegistration;

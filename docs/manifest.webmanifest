@@ -1,7 +1,7 @@
 {
-  "short_name": "KKSK",
-  "name": "KKSK",
-  "description": "KKSK",
+  "short_name": "KKSK App",
+  "name": "KKSK App",
+  "description": "kksk.app 是一个渐进式网络应用程序(PWA)，你可以在这找到一些乐子(大概)",
   "icons": [
     {
       "src": "/web/logo.png",
@@ -16,7 +16,7 @@
   ],
   "scope": "/",
   "start_url": "/",
-  "background_color": "#2d2c2c",
-  "theme_color": "#2d2c2c",
+  "background_color": "#2e343a",
+  "theme_color": "#2e343a",
   "display": "standalone"
 }

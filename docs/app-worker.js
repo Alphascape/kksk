@@ -1,8 +1,8 @@
-const cacheName = "app-" + "646c70ffeec6a3ffb87cf167b3dd961d6895e64b";
-const resourcesToCache = ["/","/app.css","/app.js","/manifest.webmanifest","/wasm_exec.js","/web/app.wasm","/web/logo.png"];
+const cacheName = "app-" + "0fa62d4a35f9e2f1f50c57daea671b148e92051a";
+const resourcesToCache = ["/","/app.css","/app.js","/manifest.webmanifest","/wasm_exec.js","/web/app.wasm","/web/css/docs.css","/web/logo.png","https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500\u0026display=swap"];
 
 self.addEventListener("install", (event) => {
-  console.log("installing app worker 646c70ffeec6a3ffb87cf167b3dd961d6895e64b");
+  console.log("installing app worker 0fa62d4a35f9e2f1f50c57daea671b148e92051a");
 
   event.waitUntil(
     caches
@@ -28,7 +28,7 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  console.log("app worker 646c70ffeec6a3ffb87cf167b3dd961d6895e64b is activated");
+  console.log("app worker 0fa62d4a35f9e2f1f50c57daea671b148e92051a is activated");
 });
 
 self.addEventListener("fetch", (event) => {
